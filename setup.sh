@@ -1,3 +1,5 @@
+
+#!/bin/bash
 #get gcloud utilities
 curl https://sdk.cloud.google.com | bash
 #restart shell and run
@@ -9,4 +11,4 @@ gcloud dataproc clusters create cluster-1 --zone us-west1-a --master-machine-typ
 
 
 #delete cluster on gcp
-gcloud dataproc clusters delete cluster-1
+#gcloud dataproc clusters delete cluster-1
